@@ -4,8 +4,8 @@
   "description": "A test repository for demonstrating Git and GitHub workflow",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
+    "start": "node api/index.js",
+    "dev": "node api/index.js",
     "test": "node tests/utils.test.js"
   },
   "keywords": [
