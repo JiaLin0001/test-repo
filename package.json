@@ -1,0 +1,25 @@
+{
+  "name": "test-repo",
+  "version": "1.0.0",
+  "description": "A test repository for demonstrating Git and GitHub workflow",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/utils.test.js"
+  },
+  "keywords": [
+    "test",
+    "git",
+    "github",
+    "example"
+  ],
+  "author": "Test Author",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/test-repo.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
